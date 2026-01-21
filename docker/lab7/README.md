@@ -21,13 +21,14 @@ I used a single command to build the images and start the services in detached m
 docker-compose up -d
 ```
 ![Build](./screenshots/compose-up.png)
-![Status](./screenshots/containers-status.png)
 
 ### 2. Verify Containers Status
 Checking if both the app and database containers are running:
 ```bash
 docker ps
 ```
+![Status](./screenshots/containers-status.png)
+
 ## Verification & Testing
 
 ### 3. Application Health & Readiness
